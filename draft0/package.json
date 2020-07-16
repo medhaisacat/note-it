@@ -1,0 +1,31 @@
+{
+  "name": "draft0",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simple note app to store and organize text, image and video. Also supports tagging. ",
+  "main": "src/index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medhasn/note-it.git"
+  },
+  "keywords": [
+    "note"
+  ],
+  "author": "Medha S N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medhasn/note-it/issues"
+  },
+  "homepage": "https://github.com/medhasn/note-it#readme"
+}
